@@ -1210,6 +1210,8 @@ li p {
 	}
 	
 }
+@import 
+url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
 .imagehover {
   position: relative;
@@ -1267,9 +1269,10 @@ li p {
   opacity: 0;
   background-color: rgba(255, 255, 255, 0.767);
   border-radius: 50%;
+  color: black
 }
 
-.imagehover i {
+.imagehover ion-icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1277,6 +1280,7 @@ li p {
   transform: translate(-50%, -50%);
   font-size: 4em;
   z-index: 1;
+  color: #101010
 }
 
 .imagehover a {
