@@ -444,7 +444,7 @@ only screen and (max-device-width: 48em) {
 }
 .section-1-text a {
 	font-family: 'Courier', arial;
-	font-size: 20px;
+	font-size: 17px;
 	margin-top: 10px;
 	line-height: 1.4em;
 	opacity: 0.99;
@@ -1188,30 +1188,8 @@ li p {
 	background-size: 100% 88%;
 	color: #101010;;
   }
-  @media (min-width: 1200px){
-	.glitch{
-		font-size: 2.2vw;
-		padding-left: 10vw;
-		
-	}
-	.glitch:before,.glitch:after{
-		padding-left:10vw;
-	}
-	.section-1-intro{
-		width: 29vw;
-	}
-	.section-1-text{
-		font-size: 1.35vw;
-		margin-top: 2vw;
-	}
-	.section-1-text a{
-		font-size: 1.7vw;
-		margin-top: 2vw;
-	}
-	
-}
-@import 
-url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+
 
 .imagehover {
   position: relative;
@@ -1317,9 +1295,9 @@ url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
+
 @media (max-width: 599px){
 	.imagehover{
 		max-width: 45vw;
 	}
-
 }
