@@ -408,7 +408,7 @@ only screen and (max-device-width: 48em) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column
+	
 }
 
 .section-1-intro {
@@ -416,7 +416,7 @@ only screen and (max-device-width: 48em) {
 	text-align: center
 }
 
-.section-1-grin {
+.section-1-smile {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 26px;
 	font-weight: 800
@@ -474,7 +474,8 @@ only screen and (max-device-width: 48em) {
 	font-family: 'Inter';
 	font-size: 21px;
 	line-height: 1.5em;
-	margin-top: 18px
+	margin-bottom: 0px;
+	
 }
 
 .section-2-title {
@@ -492,12 +493,7 @@ only screen and (max-device-width: 48em) {
 	vertical-align: top
 }
 
-.section-2-start-download {
-	font-size: 13px;
-	margin-top: 15px;
-	margin-bottom: -15px;
 
-}
 .section-2-1 {
 	
 	max-width: 100%;
@@ -682,7 +678,7 @@ nav {
 	flex-grow: 1
 }
 
-.nav-logo:hover~#grin-logo-full {
+.nav-logo:hover~#smile-logo-full {
 	visibility: visible
 }
 
@@ -701,27 +697,27 @@ nav {
 	margin: 24px 16px 0 16px
 }
 
-#grin-logo {
+#smile-logo {
 	display: inline-block;
 	position: relative
 }
 
-#grin-logo-bare {
+#smile-logo-bare {
 	transition: all .1s ease;
 	transform: rotate(0deg)
 }
 
-#grin-logo-full {
+#smile-logo-full {
 	display: inline-block;
 	border: 0;
 	opacity: 0
 }
 
-#grin-logo-full:hover {
+#smile-logo-full:hover {
 	opacity: 1
 }
 
-#grin-logo-full-svg {
+#smile-logo-full-svg {
 	transition: all .1s ease;
 	transform: rotate(0deg)
 }
