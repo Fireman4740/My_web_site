@@ -265,6 +265,9 @@ table {
 .start-block:nth-child(7)::after {
 	background: url(../images/number-6.svg) no-repeat
 }
+.start-block:nth-child(8)::after {
+	background: url(../images/number-2022.svg) no-repeat
+}
 .start:nth-child(2) {
 	border-bottom: 1px solid #DADADA
 }
